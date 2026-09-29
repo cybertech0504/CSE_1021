@@ -1,4 +1,3 @@
-#{Sir} -- Harshit Sir
 def check_blacklist(domain):
     
     # blacklist wale code
@@ -167,5 +166,4 @@ def check_blacklist(domain):
         if domain == bad_domain:
             print("⚠️ CRITICAL: Domain found in scam database!")
             return 50  
-    
     return 0
