@@ -1,4 +1,3 @@
-#{Sir} -- Harshit Sir
 def extract_domain(url):
     """Extracts the clean domain name from a URL string"""
     
