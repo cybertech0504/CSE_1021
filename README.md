@@ -11,7 +11,7 @@ You give it a URL. It pulls out the domain, checks that domain against a list of
 You only need Python 3.6 or newer, nothing else to install.
 
 bash
-git clone https://github.com/yourusername/scam-url-checker.git
+git clone https://github.com/cybertech0504/scam-url-checker.git
 cd scam-url-checker
 python main.py
 
@@ -20,16 +20,16 @@ Type the full link when it asks. It has to start with http:// or https://, other
 
 Example run:
 
+ 
+ plz enter the url: https://amazon-account-verify.info
 
-Sir plz enter the string: https://amazon-account-verify.info
-
- Wait Sir just Analyzing URL...
+ Wait just Analyzing URL...
 
 Extracted domain: amazon-account-verify.info
  CRITICAL: Domain found in scam database!
-Sir Now Checking blacklist...
+ Now Checking blacklist...
 Suspicious word found:verify
-Sir Now Checking patterns...
+Now Checking patterns...
 
 
 **********************************************************************
@@ -40,21 +40,21 @@ Sir Now Checking patterns...
 
 
 ----------------------------------------------------------------------
-Sir the domain of URL: amazon-account-verify.info
+the domain of URL: amazon-account-verify.info
 
 
-Sir the risk sore is: 58/100'
+the risk sore is: 58/100'
 ----------------------------------------------------------------------
 DETECTED FLAGS:
 ----------------------------------------------------------------------
-  [!] Sir domain found in the scam_database
-  [!] sir Suspecious key word detected: verify
+  [!] domain found in the scam_database
+  [!] Suspecious key word detected: verify
 
 ----------------------------------------------------------------------
 RISK LEVEL ASSESSMENT:
 ----------------------------------------------------------------------
- Sir Risk level is: Mid
- Sir it's a bit suspecious -- Proceed with Caution
+ Risk level is: Mid
+ it's a bit suspecious -- Proceed with Caution
 ----------------------------------------------------------------------
 
 
